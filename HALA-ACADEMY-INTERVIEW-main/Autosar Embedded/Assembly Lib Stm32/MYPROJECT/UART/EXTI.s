@@ -1,0 +1,57 @@
+RCC_BASE     EQU 0x40023800		
+GPIOA_BASE 	 EQU 0x40020000	
+EXTI_BASE	 EQU 0x40013C00
+SYSCFG_BASE	 EQU 0x40013800
+NVIC_ISER0	 EQU 0xE000E100  			
+		AREA |.text|, CODE, READONLY
+        THUMB
+        EXPORT EXIT_Init
+EXIT_Init
+		LDR R0,=RCC_BASE + 0x30 ; AHB1ERN
+		LDR R1,[R0]
+		ORR R1,R1,#1<<0 ; RCC GPIOA EN
+		STR R1,[R0]
+		
+		LDR R0,=RCC_BASE +0x40 ;APB2ENR
+		LDR R1,[R0]
+		ORR R1,R1,#1<<14 ; RCC SYSCFG EN
+		STR R1,[R0]
+		
+		LDR R0,=GPIOA_BASE + 0x00 ; MODER
+		STR R1,[R0]
+		BIC R1,R1,#3<<0 ; CLEAR BIT
+		; INPUT
+		STR R1,[R0]
+		
+;		LDR R0,=SYSCFG_BASE + 0x08 ;EXTICR1
+;		LDR R1,[R0]
+;		BIC R1,R1,#15<<0 ; PA[x]
+;		STR R1,[R0]
+		
+		LDR R0,=EXTI_BASE + 0x0C
+		LDR R1,[R0]
+		ORR R1,R1,#1 ; FALLING EN
+		STR R1,[R0]
+		
+		LDR R0,=EXTI_BASE + 0x10
+		LDR R1,[R0]
+		BIC R1,R1,#1 ; SFT DIS
+		STR R1,[R0]
+		
+		LDR R0,=EXTI_BASE + 0x00
+		LDR R1,[R0]
+		ORR R1,R1,#1 ; IMR EN
+		STR R1,[R0]
+		
+		LDR R0,=EXTI_BASE + 0x14
+		LDR R1,[R0]
+		ORR R1,R1,#1 ; PR CLEAR
+		STR R1,[R0]
+		
+		LDR     R0, =NVIC_ISER0 
+		ldr 	r1,[r0]
+		orr	    R1, #1<<6          
+        STR     R1, [R0]        
+		BX LR
+	
+			END

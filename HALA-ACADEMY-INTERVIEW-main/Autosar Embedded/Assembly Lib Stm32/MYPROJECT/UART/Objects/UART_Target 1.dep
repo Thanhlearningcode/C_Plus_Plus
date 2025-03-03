@@ -1,0 +1,114 @@
+Dependencies for Project 'UART', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140000::V6.14::ARMCLANG
+F (.\UART.s)(0x66D72D24)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F411xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/uart.o)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
+F (..\PWM\PWM.s)(0x66D7310E)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F411xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/pwm.o)
+I (PWM.h)(0x66E023E0)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
+F (.\main.c)(0x66FD1A6B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ../PWM-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/main.o -MD)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
+I (HSCR04.h)(0x66E02D05)
+I (D:\Keli C\ARM\ARMCLANG\include\stdio.h)(0x5ED619F4)
+I (UART_DMA.h)(0x66E15709)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637457FA)
+I (ENCODER.h)(0x66DD5FFE)
+I (Car_Engine.h)(0x66E02616)
+I (Timer.h)(0x66ECDE2C)
+F (.\HSC04.c)(0x66E02CE9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ../PWM-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/hsc04.o -MD)
+I (HSCR04.h)(0x66E02D05)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
+F (.\HSCR04.h)(0x66E02D05)()
+F (.\UART_DMA.c)(0x66E15709)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ../PWM-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/uart_dma.o -MD)
+I (uart_dma.h)(0x66E15709)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637457FA)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
+F (.\UART_DMA.h)(0x66E15709)()
+F (.\ENCODER.h)(0x66DD5FFE)()
+F (.\ENCODER.c)(0x66DD5FE5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ../PWM-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/encoder.o -MD)
+I (ENCODER.h)(0x66DD5FFE)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
+F (.\PWM.h)(0x66E023E0)()
+F (.\Car_Engine.c)(0x66E02616)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ../PWM-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/car_engine.o -MD)
+I (Car_Engine.h)(0x66E02616)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+F (.\Car_Engine.h)(0x66E02616)()
+F (.\Timer.c)(0x66ECDE42)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ../PWM-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/timer.o -MD)
+I (Timer.h)(0x66ECDE2C)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)
+F (.\Timer.h)(0x66ECDE2C)()
+F (RTE\Device\STM32F411VETx\startup_stm32f411xe.s)(0x637457FA)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-Wa,armasm,--pd,"__UVISION_VERSION SETA 531" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F411xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f411xe.o)
+F (RTE\Device\STM32F411VETx\system_stm32f4xx.c)(0x637457FA)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w -I ../PWM-I./RTE/_Target_1-I"D:/Keli C/ARM/CMSIS/5.7.0/CMSIS/Core/Include"-I"D:/Keli C/Keil/STM32F4xx_DFP/2.17.1/Drivers/CMSIS/Device/ST/STM32F4xx/Include"-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F411xE -D_RTE_-o ./objects/system_stm32f4xx.o -MD)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x637457FA)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f411xe.h)(0x637457FA)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\stdint.h)(0x5ED619F4)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8314D2)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8EDF32)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_compat.h)(0x5E0CD0FC)
+I (D:\Keli C\ARM\ARMCLANG\include\arm_acle.h)(0x5E0CD128)
+I (D:\Keli C\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8EDF32)
+I (D:\Keli C\Keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x637457FA)

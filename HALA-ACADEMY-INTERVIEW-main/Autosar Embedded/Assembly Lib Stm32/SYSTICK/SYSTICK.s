@@ -1,0 +1,48 @@
+SYST_CTRL		EQU 0xE000E010
+SYST_LOAD		EQU 0xE000E014
+SYST_VAL		EQU	0xE000E018
+SYST_CALIB		EQU 0xE000E01C
+	
+	AREA |.text|,CODE,READONLY,ALIGN=2
+	THUMB
+	ENTRY __main
+__main
+		BL Sysick_Init
+		BL GPIO_Init
+Systick_Init
+;Systick->CTRL=0;
+		LDR R0,=SYST_CTRL
+		MOV R1,#0
+		STR R1,[R0]
+;Systick->LOAD =0x00FFFFFF;
+		LDR R0,=SYST_LOAD
+		LDR R1,=0x00FFFFFF
+		STR	R1,[R0]
+;Sytick->VAL=0;
+		LDR R0,=SYST_VAL
+		MOV	R1,#0
+		STR	R1,[R0]
+;Sytick->CTRL=5u; enable coutern,enable processer clock
+		LDR	R0,=SYST_CTRL
+		MOV R1,#0x0001000
+		STR	R1,[R0]
+		BX LR
+Systick_Wait
+		LDR	R0,=SYST_LOAD
+		SUB	R1,#1
+		STR	R1,[R0]
+		LDR	R0,=SYST_CTRL
+LP1	
+		LDR	R3,[R0]
+		ANDS	R3,R3,#1U	; WAIT COUNTER to 0
+		BEQ LP1
+		BX LR
+Systick_wait10ms
+		MOVS	 R4,R0
+		BEQ	 DONE
+		LDR	R0,=10000
+		BL WAIT_SUB
+
+		
+		
+		
